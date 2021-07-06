@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section{
+    display: flex;
+    
+    width: 100%;
+    margin: 0px 50px;
+
+}
+.top-section{
+    background-image: url(image/top-bg-image.jpg);
+    background-repeat: no-repeat;
+    height:795px;
+    width: 100%;
+}
+.special-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 50px;
+}
+.half-width{
+    padding: 35px 70px;
+    width: 50%;
+}
+.half-width img{
+    height: 465px;
+    width: 100%;
+}
+.anchor-button{
+    text-decoration: none;
+    padding: 10px 30px;
+    background: linear-gradient(rgb(243, 105, 80) ,rgb(245, 122, 8));
+    color: white;
+    border-radius: 30px;
+    box-shadow: 7px 7px 30px thistle;
+
+
+    
+
+}
+span{
+    color: orange;
+}
+.white-color{
+    color: white;
+}
+.input-box{
+    padding: 10px 130px;
+    border-radius: 25px;
+    border: 5px solid rgb(238, 166, 73);
+    margin-bottom: 50px;
+    ;
+}
+.riceipies-content{
+    text-align: center;
+    padding: 50px;
+    padding-top: 50px;
+    width: 50%;
+    margin-left: 320px;
+}
+.top-banner{
+    background-image: linear-gradient(rgb(243, 206, 199), rgb(250, 231, 229));
+    background-repeat: no-repeat;
+    height: 500px;
+   
+}
+
+.mid-banner{
+    background-image: linear-gradient(rgb(250, 231, 229), rgb(243, 206, 199) );
+    background-repeat: no-repeat;
+    height: 500px;
+   
+}
+.reciepies-banner{
+    height: 500px;
+}
+.padding-top{
+    padding-top: 80px;
+}
+.tiple-width{
+    padding: 10px 10px;
+    width: 30%;
+}
+.card-item{
+    box-shadow: 5px 5px 20px 5px gray;
+    border-radius: 30px;
+    margin: 30px 50px;
+    height: 435px;
+}
+.third-banner{
+    height: 500px;
+}
+.third-banner img{
+    height: 200px;
+    width: 100%;
+    border-radius: 30px;
+}
+.recipis-items{
+    margin: 25px;
+    display: flex;
+}
+footer{
+    text-align: center;
+    background-color: rgb(49, 38, 38);
+    color: white;
+    margin-top: 90px;
+    padding: 25px 45px;
+}
+.special-section{
+    padding: 10px 10px;
+    width: 10%;
+    
+    display: flex;
+}
+.special-width{
+    width: 12%;
+    height: 200px;
+}
+.special-height{
+    height: 200px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 25px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(125, 250, 229, 0.829);
+    
+}
+li{
+    float: left;
+    
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    border-radius: 10px;
+}
+li a:hover:not(.active){
+    background-color: #1a1f1d;
+}
+.active{
+    background-color: #fd8737;
+}
